@@ -1235,10 +1235,10 @@ button:hover {
 }
 
 a:hover {
-  background: hsl(244, 100%, 50%);
   color: #fff;
-  box-shadow: 0 0 5px hsl(244, 100%, 50%), 0 0 10px hsl(244, 100%, 50%),
-    0 0 10px hsl(244, 100%, 50%), 0 0 10px hsl(244, 100%, 50%);
+  background-color: blue;
+  box-shadow: 0 0 5px #235573, 0 0 10px #235573, 0 0 10px #235573,
+    0 0 10px #235573;
   -webkit-box-reflect: below 1px lineargradient(transparent, #0005);
 }
 
@@ -1261,5 +1261,9 @@ a {
 .bxl-skype:hover,
 .bxl-linkedin:hover,
 .bxl-facebook:hover {
+  color: white;
+}
+
+.bx {
   color: white;
 }
