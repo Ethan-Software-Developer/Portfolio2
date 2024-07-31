@@ -1235,7 +1235,7 @@ button:hover {
 }
 
 a:hover {
-  background: transparent;
+  background: hsl(244, 100%, 50%);
   color: #fff;
   box-shadow: 0 0 5px hsl(244, 100%, 50%), 0 0 10px hsl(244, 100%, 50%),
     0 0 10px hsl(244, 100%, 50%), 0 0 10px hsl(244, 100%, 50%);
